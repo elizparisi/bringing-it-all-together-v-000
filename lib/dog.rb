@@ -99,7 +99,7 @@ class Dog
     SQL
     
     DB[:conn].execute(sql, name)
-    
+    Dog.new_from_db(row[1])
   end
     
 end
