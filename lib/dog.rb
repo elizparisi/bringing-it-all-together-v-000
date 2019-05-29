@@ -61,8 +61,8 @@ class Dog
     Student.new_from_db(row[1])
   end
   
-  def self.create(name:, breed:)
-    Dog.new(name, breed)
+  def self.create
+    Dog.new(name:, breed:)
     dog.save
   end
 
