@@ -30,7 +30,7 @@ class Dog
   end
   
   def self.new_from_db(row)
-    
+    Dog.new()
   end
 
 end
