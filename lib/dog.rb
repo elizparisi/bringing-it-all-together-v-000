@@ -34,6 +34,10 @@ class Dog
     dog
   end
   
+  def save
+    
+  end
+  
   def self.find_by_name
     sql = <<-SQL
       SELECT *
