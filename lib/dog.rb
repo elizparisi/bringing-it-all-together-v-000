@@ -60,5 +60,9 @@ class Dog
     row = DB[:conn].execute(sql, name)
     Student.new_from_db(row[1])
   end
+  
+  def self.create(name:, breed:)
+    
+  end
 
 end
